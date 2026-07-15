@@ -14,8 +14,8 @@
 
 <body>
 
-    <div id="header" style="background-color: rgb(133, 95, 120);">
-        <img src="Assets/pride_flag.png" style="width: 100px;object-fit: fill; height: 100%; margin-top: 0px;">
+    <div id="header">
+        <img src="Assets/pride_flag.png" style="object-fit: fill; width: 106px; height: 58px; margin-top: 0px;">
         <a href="index.html"><h1> Film </h1></a>
         <a href="tv.html"><h1> T.v. </h1></a>
         <a href="games.html"><h1> Games </h1></a>
@@ -25,11 +25,36 @@
     
     <div class="grid">
 
+        <div class="cell" onclick="toggleText('t4_base', 't4_text');">
+            <img src="tv/DeadBoyDetectives_2024.jpg">
+            <div id="t4_base" class="description_box"></div>
+            <p id="t4_text">
+                Dead Boy Detectives <br> 2024 <br><br>
+                A glorious romp of a YA&#8209;Fantasy show. Two dead boys set themselves up 
+                as detectives, solving a chaotic collection of cases for other ghosts. The 
+                show has several queer characters, ranging from meat-cleaver wielding Lesbian, 
+                Jenny green, to uptight Edwin Payne. One of the main characters, his arc 
+                revolves around him accepting his sexuality
+            </p>    
+        </div>
+
+        <div class="cell" onclick="toggleText('f7_base','f7_text');">
+            <img src="Movies/theGirlWithTheDragonTattoo.jpg">
+            <div id="f7_base" class="description_box"></div>
+            <p id="f7_text">
+                The Girl With The Dragon Tattoo <br> 2011 <br><br>
+                A dark and confronting film. Yet for all it's intense scenes and complex 
+                plot it still follows a conventional "Investigator chases serial killer" 
+                structure. Lisbeth, a protagonist, gets one Lesbian fling that has no 
+                bearing on the rest of the film
+            </p>
+        </div>
+
         <div class="cell" onclick="toggleText('f5_base','f5_text');">
             <img src="Movies/Love129.png">
             <div id="f5_base" class="description_box"></div>
             <p id="f5_text">
-                Love192 <br> 8/10 <br><br>
+                Love192 <br> 2025 <br><br>
                 This is a beautiful short film. Video games spaces are weird, and become 
                 extra weird when shared with other people. Love192 gets that, exploring 
                 a romantic relationship between 2 boys who connected online. It's a 
@@ -88,7 +113,7 @@
             <img src="Movies/Stranger_by_the_Lake.jpg">
             <div id="q2_base" class="description_box"></div>
             <p id="q2_text">
-                Stranger by the Lake <br> 7.5/10 <br><br>
+                Stranger by the Lake <br> 2013 <br><br>
                 This film finds a unique take on the common pairing of danger and desire. 
                 It's premise and plot are simple, but this gives more space to ponder the 
                 film's themes. Looking is not a passive act, and gay cruising grounds are 
@@ -99,7 +124,7 @@
         <div class="cell" onclick="toggleText('q1_base', 'q1_text');">
             <img src="Movies/Edge_of_seventeen.jpg">
             <div id="q1_base" class="description_box"></div>
-            <p id="q1_text"> Edge of Seventeen <br> 6.5/10 <br><br> 
+            <p id="q1_text"> Edge of Seventeen <br> 1998 <br><br> 
                 Released in 1998 and set in 1984, this queer coming of age film takes 
                 some unusually somber turns when compared with it's post 2000s 
                 counterparts. Being queer was harder then, and it shows in the culture, 
@@ -107,8 +132,6 @@
             </p>
         </div>
 
-        <div class="test_cell"></div>
-        <div class="test_cell"></div>
         <div class="test_cell"></div>
         <div class="test_cell"></div>
         <div class="test_cell"></div>
