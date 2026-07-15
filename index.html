@@ -15,7 +15,7 @@
 <body>
 
     <div id="header">
-        <img src="Assets/film_icon.png" style="width: 90px;object-fit: fill; height: 70px; margin-top: 11px;">
+        <img src="Assets/film_icon.png" style="width: 90px;object-fit: fill; height: 70px; margin-top: 4px;">
         <a href="tv.html"><h1> T.v. </h1></a>
         <a href="games.html"><h1> Games </h1></a>
         <a href="books.html"><h1> Books </h1></a>
@@ -24,6 +24,18 @@
     </div>
     
     <div class="grid">
+
+        <div class="cell" onclick="toggleText('f8_base','f8_text');">
+            <img src="Movies/footloose_1984.jpg">
+            <div id="f8_base" class="description_box"></div>
+            <p id="f8_text">
+                Footloose <br> 1984 <br><br>
+                Is this the most 80s film? A big city boy newly arrived in a small town 
+                fights against restrictive laws around dancing. It has a surprising focus on 
+                grass roots activism, a generation fighting for themselves, and takes the 
+                time to explore inter-generational conflict.
+            </p>
+        </div>
 
         <div class="cell" onclick="toggleText('f7_base','f7_text');">
             <img src="Movies/theGirlWithTheDragonTattoo.jpg">
@@ -117,7 +129,10 @@
         <div class="test_cell"></div>
         <div class="test_cell"></div>
         <div class="test_cell"></div>
-        <div class="test_cell"></div>
+
+        <div">
+            <!-- spacer -->
+        </div>
 
     </div>
 
