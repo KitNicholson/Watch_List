@@ -38,12 +38,12 @@ img {
     background-color: rgb(59, 11, 58);
     /* background-color: rgb(45, 24, 60); */
     border-style: solid;
-    border-color: rgb(237, 215, 185);
-    border-width: 1px;
+    border-color: rgb(203, 186, 162);
+    border-width: 2px;
 
     position: fixed;
-    top: -1px;
-    left: -1px;
+    top: -2px;
+    left: -2px;
     border-radius: 0px 0px 24px 0px;
     display: flex;
     direction: row;
