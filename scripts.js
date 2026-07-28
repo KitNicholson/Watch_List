@@ -1,9 +1,4 @@
 
-function test() {
-    console.log('HEY!');
-}
-
-
 function toggleText(base_ID,text_ID) {
 
     var base = document.getElementById(base_ID);
