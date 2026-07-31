@@ -56,14 +56,6 @@ img {
     height: 52px; /* make sure .grid margin-top uses the same value*/
 }
 
-.spacer {
-    background-color: rgb(237, 215, 185);
-    position: relative;
-    top: 12px;
-    width: 2.5px;
-    border-radius: 1px;
-    height: 55%;
-}
 
 .grid {
 
@@ -87,6 +79,7 @@ img {
 
 .cell {
     position: relative;
+    /* make sure width to height ratio is 27:40 */
     width: 243px;
     height: 360px;
     overflow: hidden;
@@ -126,7 +119,7 @@ p {
     width: 100%;
     padding: 13px;
     width: 217px;
-    height: 350px;
+    height: 355px;
     overflow: scroll;
     color: rgb(254, 250, 243);
     opacity: 0;
