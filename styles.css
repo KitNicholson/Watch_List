@@ -171,21 +171,50 @@ p::-webkit-scrollbar-thumb {
 @media only screen and (max-width: 514px) {
 
     #header {
-        padding-left: 10px;
+        padding-left: 15px;
         width: 290px;
         height: 90px; /* make sure .grid margin-top uses the same value*/
 
         flex-wrap: wrap;
     }
 
-    .grid {
-        margin-top: 90px;
-    }
-
     #altRow {
         position: fixed;
         top: 35px;
         left: 123px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 189px));
+        margin-top: 90px;
+        gap: 7px;
+        background-color: aqua;
+    }
+
+    .cell {
+    /* make sure width to height ratio is 27:40 */
+    width: 189px;
+    height: 280px;
+    }
+
+    .test_cell {
+    width: 189px;
+    height: 280px;
+    }
+
+    .cell:hover {
+    cursor: grab;
+    transform: scale(1);
+    }
+
+    p {
+        padding: 7px;
+        font-size: 10pt;
+        line-height: 14pt;
+        /* background-color: aqua; */
+        width: 175px;
+        height: 281px;
+        overflow: scroll;
     }
 
     #pride_flag {
@@ -197,11 +226,5 @@ p::-webkit-scrollbar-thumb {
     #controler {
         width: 100px;
     }
-
-    .cell:hover {
-    cursor: grab;
-
-    transform: scale(1);
-}
 
 }
