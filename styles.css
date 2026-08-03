@@ -1,4 +1,9 @@
 
+@font-face {
+   font-family: 'Anton';
+   src: url(Assets/Anton-Regular.otf);
+}
+
 body {
     /* background-color: rgb(24, 27, 25); */
     /* background-color: rgb(241, 236, 239); */
@@ -7,11 +12,11 @@ body {
 }
 
 h1 {
-    font-family: 'impact';
+    font-family: 'Anton';
     /* font-family: 'Courier New' ; */
-    font-size: 19pt;
+    font-size: 20pt;
     font-weight: normal;
-    margin-top: 10px;
+    margin-top: 6px;
     color: rgb(237, 215, 185);
 }
 
@@ -54,6 +59,13 @@ img {
 
     /* width: 100%; */
     height: 52px; /* make sure .grid margin-top uses the same value*/
+}
+
+#altRow{
+    /* width: 600px; */
+    display: flex;
+    direction: row;
+    gap: 24px;
 }
 
 
@@ -126,6 +138,20 @@ p {
     transition: 0.15s;
 }
 
+#pride_flag {
+    object-fit: fill; 
+    width: 106px; 
+    height: 62px; 
+    margin-top: 0px;
+}
+
+#controler {
+    width: 110px;
+    object-fit: fill; 
+    height: 62px; 
+    margin-top: 9px;
+}
+
 p::-webkit-scrollbar {
     width: 4.5px;
 }
@@ -138,4 +164,44 @@ p::-webkit-scrollbar-thumb {
     border-radius: 2px;
     border: 3px solid transparent;
     background-color: rgb(143, 135, 124);
+}
+
+/* Styles for Mobile */
+    
+@media only screen and (max-width: 514px) {
+
+    #header {
+        padding-left: 10px;
+        width: 290px;
+        height: 90px; /* make sure .grid margin-top uses the same value*/
+
+        flex-wrap: wrap;
+    }
+
+    .grid {
+        margin-top: 90px;
+    }
+
+    #altRow {
+        position: fixed;
+        top: 35px;
+        left: 123px;
+    }
+
+    #pride_flag {
+        width: 90px; 
+        height: 54px; 
+        margin-top: 16px;
+    }
+
+    #controler {
+        width: 100px;
+    }
+
+    .cell:hover {
+    cursor: grab;
+
+    transform: scale(1);
+}
+
 }
