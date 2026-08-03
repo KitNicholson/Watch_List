@@ -188,7 +188,7 @@ p::-webkit-scrollbar-thumb {
         grid-template-columns: repeat(auto-fill, minmax(100px, 189px));
         margin-top: 90px;
         gap: 7px;
-        background-color: aqua;
+        /* background-color: aqua; */
     }
 
     .cell {
