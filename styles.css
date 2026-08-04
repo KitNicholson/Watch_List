@@ -72,6 +72,7 @@ img {
 .grid {
 
     margin-top: 52px; /*make sure this is the same value as #header height */
+    margin-bottom: 15px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(170px, 243px));
     padding-top: 10px;
@@ -186,7 +187,8 @@ p::-webkit-scrollbar-thumb {
 
     .grid {
         grid-template-columns: repeat(auto-fill, minmax(100px, 189px));
-        margin-top: 90px;
+        margin-top: 93px;
+        margin-bottom: 10px;
         gap: 7px;
         /* background-color: aqua; */
     }
