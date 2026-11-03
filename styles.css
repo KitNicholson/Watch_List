@@ -128,7 +128,8 @@ p {
     position: absolute;
     top: 0px;
     margin-top: 0px;
-    padding: 13px;
+    padding: 10px;
+    padding-top: 7px;
     padding-right: 5px;
     /* width: 217px; */
     height: 355px;
